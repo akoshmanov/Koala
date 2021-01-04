@@ -1,0 +1,149 @@
+body {
+  background-color: #73b5f7;
+  margin:0;
+}
+
+.koala_head {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  margin: 20px auto;
+}
+
+.head {
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  background-color: #d4dbdd;
+  width: 65%;
+  height: 65%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left_ear {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  background-color: #d4dbdd;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.right_ear {
+  position: absolute;
+  top: 20%;
+  left: 53%;
+  background-color: #d4dbdd;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left_inner_ear {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: #9bacb0;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.right_inner_ear {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: #9bacb0;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left_eye {
+  position: absolute;
+  top: 16%;
+  left: 22%;
+  background-color: white;
+  width: 30%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.right_eye {
+  position: absolute;
+  top: 16%;
+  left: 48%;
+  background-color: white;
+  width: 30%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.left_eyeball {
+  position: absolute;
+  top: 35%;
+  left: 32.5%;
+  background-color: #112855;
+  width: 30%;
+  height: 32%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.right_eyeball {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  background-color: #112855;
+  width: 30%;
+  height: 32%;
+  border-radius: 50%;
+}
+
+.nose {
+  position: absolute;
+  top: 40%;
+  left: 41.5%;
+  background-color: #ac7339;
+  width: 18%;
+  height: 33%;
+  border-radius: 50px;
+}
+
+.mouth {
+  position: absolute;
+  top: 82%;
+  left: 42.5%;
+  background-color: #f07575;
+  width: 16%;
+  height: 6%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 2px solid grey;
+  border-top: none;
+}
+
+.text {
+  text-align: center;
+  margin-top: 120px;
+  padding-left: 10px;
+  color:grey;
+  font-family:monospace;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text_v2 {
+  text-decoration: none;
+}
+.text_v2:hover{
+  color: yellow;
+}
